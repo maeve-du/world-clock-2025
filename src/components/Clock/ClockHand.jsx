@@ -11,7 +11,7 @@ const ClockHand = ({ hand = '', isDaytime = false, degree = 0, isShaft = false }
   )
 
   const secondHand =
-    'z-30 before:w-[2px] before:h-[98px] before:left-[calc(50%-1px)] before:top-[90px] before:bg-rose-600 before:rounded-[1px]'
+    'z-30 before:w-[2px] before:h-[100px] before:left-[calc(50%-1px)] before:top-[38px] before:bg-rose-600 before:rounded-[1px]'
 
   const shaft = clsMerge(
     'z-50 before:h-[12px] before:w-[12px] before:aspect-square before:left-[calc(50%-6px)] before:top-[calc(50%-6px)] before:border-3 before:rounded-full',
