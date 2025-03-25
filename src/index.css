@@ -5,7 +5,7 @@
   line-height: 1.5;
   font-weight: 400;
   --color-primary: #ffd99f;
-  --color-secondary: #e29cdf;
+  --color-secondary: #d34fcd;
 }
 
 @theme {
@@ -21,7 +21,12 @@
     align-items: center;
     width: 100dvw;
     min-height: 100dvh;
+    background: linear-gradient(218deg, var(--color-primary), var(--color-secondary)) no-repeat;
     text-shadow: 0 3px 5px rgba(0 0 0 / 10%);
-    background: linear-gradient(218deg, var(--color-primary), var(--color-secondary));
+    background-size: cover;
   }
+}
+
+@utility no-text-shadow {
+  text-shadow: none;
 }

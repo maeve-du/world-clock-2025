@@ -18,7 +18,7 @@ const Clock = ({ city, timezone }) => {
   return (
     <div
       className={clsMerge(
-        'aspect-square flex px-12 py-5 m-3 flex-col items-center gap-y-3 rounded-3xl',
+        'aspect-square flex px-12 py-5 m-3 flex-col items-center gap-y-3 rounded-3xl sha',
         background
       )}>
       <h2 className={clsMerge('text-2xl', textColor)}>{city}</h2>

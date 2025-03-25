@@ -1,9 +1,13 @@
 import ClockList from './components/ClockList'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div className='w-dvw max-w-[1000px] min-h-dvh flex justify-center items-center flex-wrap'>
+    <div
+      id='app'
+      className='w-dvw max-w-[1000px] min-h-dvh flex justify-center items-center flex-wrap'>
       <ClockList />
+      <Footer />
     </div>
   )
 }
