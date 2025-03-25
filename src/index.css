@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+:root {
+  font-family: Inter, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --color-primary: #ffd99f;
+  --color-secondary: #e29cdf;
+}
+
+@theme {
+  --inset-shadow-lg: inset 10px 10px 18px rgba(0, 0, 0, 0.15),
+    inset -15px -15px 25px rgba(0, 0, 0, 0.15);
+  --clock-drop-shadow: -1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+@layer base {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100dvw;
+    min-height: 100dvh;
+    text-shadow: 0 3px 5px rgba(0 0 0 / 10%);
+    background: linear-gradient(218deg, var(--color-primary), var(--color-secondary));
+  }
+}
